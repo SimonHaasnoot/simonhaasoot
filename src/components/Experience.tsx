@@ -10,7 +10,7 @@ export const Experience = () => {
         <Box>
             <Box>
                 <Typography variant="h2" component="h2" sx={{ mb: 5 }}>
-                    My road to becoming a developer.
+                    The adventure of becoming a developer.
                 </Typography>
             </Box>
             <ExperienceItem
@@ -29,7 +29,7 @@ export const Experience = () => {
             <ExperienceItem
                 title="Freelancing"
                 image={freelanceImg}
-                text="In my spare time between internships and jobs I did work on some hobby projects and business websites for friends and family. My CSS, plain JavaScript and HTML skills have been improved a lot during this time."
+                text="Inbetween internships and jobs I worked on some hobby projects, and business websites for friends and family. My CSS, plain JavaScript and HTML skills have been improved a lot during this time."
                 chips={['Ongoing', '2018 - now']}
                 listItems={[
                     {title: 'Impera Consultancy', link: 'https://www.administratieondercontrole.nl/'},
