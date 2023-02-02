@@ -32,6 +32,7 @@ export const Experience = () => {
                 text="Inbetween internships and jobs I worked on some hobby projects, and business websites for friends and family. My CSS, plain JavaScript and HTML skills have been improved a lot during this time."
                 chips={['Ongoing', '2018 - now']}
                 listItems={[
+                    {title: 'Balanced Lifestyle', link: 'https://www.balanced-lifestyle.online'},
                     {title: 'Impera Consultancy', link: 'https://www.administratieondercontrole.nl/'},
                     {title: 'HaasnootCoatings', link: 'https://www.haasnootcoatings.nl/'},
                     {title: 'FitByTheBar (building)', link: 'https://fitbythebar.nl/'},

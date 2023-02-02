@@ -24,9 +24,7 @@ theme = createTheme({
         },
     },
     typography: {
-        fontFamily: [
-            'Poppins',
-        ].join(','),
+        fontFamily: ['Poppins'].join(','),
         h1: {
             fontWeight: 900,
             fontSize: 80,
@@ -39,7 +37,7 @@ theme = createTheme({
             wordBreak: 'break-word',
         },
         h2: {
-            fontWeight: 600,
+            fontWeight: 200,
             fontSize: 64,
             letterSpacing: '-0.03em',
             [theme.breakpoints.between('xs', 'sm')]: {
@@ -54,7 +52,7 @@ theme = createTheme({
             wordBreak: 'break-word',
         },
         h4: {
-            fontWeight: 500
+            fontWeight: 500,
         },
         subtitle1: {
             fontWeight: 300,
@@ -87,6 +85,17 @@ theme = createTheme({
         },
     },
     components: {
+        MuiLink: {
+            styleOverrides: {
+                root: {
+                    'color': color02,
+                    textDecoration: 'none',
+                    '&:hover': {
+                        color: color01,
+                    },
+                },
+            },
+        },
         MuiButton: {
             styleOverrides: {
                 outlined: {
@@ -107,10 +116,10 @@ theme = createTheme({
                 masonry: {
                     borderRadius: 12,
                     overflow: 'hidden',
-                    [":hover img"]: {
+                    [':hover img']: {
                         transform: 'scale(1.2)',
                         transition: '.3s ease-in-out',
-                    }
+                    },
                 },
             },
         },
